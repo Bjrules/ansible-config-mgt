@@ -4,8 +4,4 @@
 #### ansible creating artifacts in jenkins is a great Idea ........Ansible dropin artifacts builds into Jenkins fron github via PRJ11
 
 
-<<<<<<< HEAD
-#### refactoring.....
-=======
-#### refactoring.................
->>>>>>> 795a70b762792faa9f7ac3df1b7fec67ff7f33c0
+#### refactoring..
