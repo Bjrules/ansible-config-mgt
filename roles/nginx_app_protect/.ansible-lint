@@ -1,6 +1,0 @@
----
-offline: true
-skip_list:
-  - args[module]
-  - name[template]
-  - yaml[line-length]

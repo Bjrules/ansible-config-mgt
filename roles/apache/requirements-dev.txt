@@ -1,3 +1,0 @@
-cruft
-pre-commit
-tox
