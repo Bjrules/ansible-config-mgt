@@ -31,7 +31,9 @@
 - import_tasks: vhosts.yml
 
 # Nginx setup.
+#BANJO ADDED 'become: true'
 - name: Copy nginx configuration in place.
+  become: true
   template:
     src: "{{ nginx_conf_template }}"
     dest: "{{ nginx_conf_file_path }}"
@@ -40,8 +42,9 @@
     mode: 0644
   notify:
     - reload nginx
-
+#BANJO ADDED 'become: ture'
 - name: Ensure nginx service is running as configured.
+  become: true
   service:
     name: nginx
     state: "{{ nginx_service_state }}"
