@@ -14,5 +14,5 @@
 
 - name: Loadbalancers assignment
 hosts: lb
-- import_playbook: ../static-assignments/lb.yml
+- import_playbook: ../static-assignments/loadbalancersb.yml
 when: load_balancer_is_required
