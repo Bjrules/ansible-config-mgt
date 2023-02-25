@@ -57,7 +57,7 @@ apache_enabled: yes
 apache_restart_state: restarted
 
 # Apache package state; use `present` to make sure it's installed, or `latest`
-# if you want to upgrade or switch versions using a new repo.
+# if you want to upgrade or switch versions using a new repo....
 apache_packages_state: present
 
 # Default file for ApacheRole
@@ -67,4 +67,5 @@ load_balancer_is_required: false
 # DNS mapping for webservers
 web1: 172.31.53.252
 web2: 172.31.62.224
+lbrole: 172.31.60.94
 
